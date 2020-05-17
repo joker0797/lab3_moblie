@@ -1,5 +1,4 @@
 # lab3 - Управление мобильными устройствами
-writed by python 
 
 автор Ле Тиен Зунг N3349 write by python
 
