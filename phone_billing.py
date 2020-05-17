@@ -20,4 +20,4 @@ def invoices(phoneNum):
             call_in_duration += float(row[call])
     call_invoices = max(0,(call_in_duration-call_in_free)) *call_in_coef + call_out_coef*call_out_duration
     sms_invoices = sms * sms_coef
-    return call_invoices+sms_invoices+1
+    return call_invoices+sms_invoices
